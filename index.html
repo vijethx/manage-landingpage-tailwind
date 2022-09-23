@@ -30,6 +30,28 @@
           class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hidden md:block"
           >Get Started</a
         >
+        <!-- hamburger icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span
+          ><span class="hamburger-middle"></span
+          ><span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex flex-col hidden items-center self-end py-8 mt-10 space-y-6 folnt-bold bg-white sm:w-auto sm:self-center left-8 right-8 drop-shadow-md"
+        >
+          <a href="#" class="">Pricing</a>
+          <a href="#" class="">Product</a>
+          <a href="#" class="">About Us</a>
+          <a href="#" class="">Careers</a>
+          <a href="#" class="">Community</a>
+        </div>
       </div>
     </nav>
 
@@ -279,7 +301,7 @@
             <img src="img/logo-white.svg" alt="logo-white" class="h-8" />
           </div>
           <!-- social links container -->
-          <div class="flex items-center justify-center space-x-4">
+          <div class="flex items-center justify-center space-x-6">
             <a href="#" target="_blank">
               <img src="img/icon-facebook.svg" alt="icon-facebook"
             /></a>
